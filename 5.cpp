@@ -15,5 +15,5 @@ int main()
     cout << "Address of variable a is " << *b << endl; // it will print the value of a
 
     cout << c << endl; // it will give the address of b;
-        return 0;
+    return 0;
 }
