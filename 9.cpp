@@ -18,19 +18,20 @@ using namespace std;
 //     return 0;
 // }
 
-
 // call by reference (Actual and formal arguments will be created in same memory location)
-int change(int* n, int* m)
+int change(int *n, int *m)
 {
-    *n = 10;  
+    *n = 30;
     *m = 25;
 }
 int main()
 {
     int a = 5;
     int b = 10;
-    change(&a, &b);  // here we are passing the address of a and b
-    cout << a << endl;
-    cout << b << endl;
+    cout << a << endl; // 5
+    cout << b << endl;  // 10
+    change(&a, &b); // here we are passing the address of a and b
+    cout << a << endl; // 30
+    cout << b << endl; // 25
     return 0;
 }
