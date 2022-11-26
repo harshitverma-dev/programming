@@ -1,3 +1,4 @@
+// Default arguments
 #include <iostream>
 using namespace std;
 
