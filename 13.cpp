@@ -16,6 +16,7 @@ int addition(int a, int b, int c)
 }
 
 // example >>
+// same funcion with different parameters. 
 // valume of cube:
 int valume(int a){
     return (a*a*a);
@@ -35,8 +36,8 @@ int main()
     cout << addition(a, b) << endl;    // a,b are the arguments
     cout << addition(a, b, c) << endl; // a,b,c are the arguments
 
-    cout<< valume(2)<<endl;
-    cout<< valume(2, 5)<<endl;
-    cout<< valume(2,4,6)<<endl;
+    cout<< valume(2)<<endl; // passing 1 arguments
+    cout<< valume(2, 5)<<endl; // passing 2 arguments
+    cout<< valume(2,4,6)<<endl; // passing 3 arguments
     return 0;
 }
