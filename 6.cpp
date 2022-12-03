@@ -4,17 +4,6 @@ using namespace std;
 
 int main()
 {
-    string subject[] = {"computer", "maths", "programming"};
-    string *p = subject; // here p is pointer variable which is holding the subject array. so we can get the value and address using p, such as..
-    // p , p+1, p+2  these will give the address.
-    // *p , *(p+1), *(p+2) these will give the value of the address.
-    cout << p << endl;
-    cout << p + 1 << endl;
-    cout << p + 2 << endl;
-    cout << *p << endl;
-    cout << *(p + 1) << endl;
-    cout << *(p + 2) << endl;
-
     int arr[] = {10, 20, 30, 40, 50};
     cout << arr[0] << endl; // it will give the zero index value.
     cout << arr[1] << endl; // it will give the 1st index value.
@@ -36,6 +25,17 @@ int main()
     cout << *(arr + 2) << endl;
     cout << *(arr + 3) << endl;
     cout << *(arr + 4) << endl;
+
+    string subject[] = {"computer", "maths", "programming"};
+    string *p = subject; // here p is pointer variable which is holding the subject array. so we can get the value and address using p, such as..
+    // p , p+1, p+2  these will give the address.
+    // *p , *(p+1), *(p+2) these will give the value of the address.
+    cout << p << endl;
+    cout << p + 1 << endl;
+    cout << p + 2 << endl;
+    cout << *p << endl;
+    cout << *(p + 1) << endl;
+    cout << *(p + 2) << endl;
 
     return 0;
 }

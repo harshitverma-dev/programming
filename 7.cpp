@@ -48,10 +48,9 @@ int main()
         lunch,
         dinner
     };
-    cout << breakfast << endl;
-    cout << lunch << endl;
-    cout << dinner << endl;
-    cout << Meal[0]
+    cout << breakfast << endl; // 0
+    cout << lunch << endl;    // 1
+    cout << dinner << endl;   // 2
 
     return 0;
 }
