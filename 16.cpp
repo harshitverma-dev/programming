@@ -27,7 +27,7 @@ void Shop::displayPrice(void)
 {
     for (int i = 0; i < counter; i++)
     {
-        cout << "item Id : " << itemId[i] << " item price : " << itemPrice[i] << endl;
+        cout << "item's Id : " << itemId[i] << " item's price : " << itemPrice[i] << endl;
     }
 }
 
